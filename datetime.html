@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live Global Date & Time</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/app.js"></script>
+</head>
+<body data-page="datetime">
+  <div id="app-header"></div>
+
+  <main class="container">
+    <div class="card">
+      <h1 class="page-title">Live Global Date & Time</h1>
+      <p class="muted" style="margin-top:-6px;">View accurate, live time across different countries and time zones.</p>
+
+      <div class="big-clock">
+        <div class="place" id="bigCity">Harare, Zimbabwe</div>
+        <div class="time" id="bigTime">--:--:--</div>
+        <div class="date" id="bigDate">---</div>
+      </div>
+
+      <div class="city-grid" id="cityCards"></div>
+
+      <h3 style="margin:16px 0 10px;">All Time Zones</h3>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>City</th>
+            <th>Country</th>
+            <th>Current Time</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="tzTableBody"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <div id="app-footer"></div>
+</body>
+</html>

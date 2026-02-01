@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pending Appointments</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/app.js"></script>
+</head>
+<body data-page="pending">
+  <div id="app-header"></div>
+
+  <main class="container">
+    <div class="card" style="max-width:900px;margin:0 auto;">
+      <h1 class="page-title">Pending Appointments</h1>
+
+      <input class="input" id="pendingSearch" placeholder="Search by appointment number or name..." />
+
+      <div id="pendingList"></div>
+
+      <div class="note" style="margin-top:14px;">
+        <strong>Note:</strong> Please arrive 10 minutes before your scheduled appointment time and dont forget to bring your appointment number for reference.
+      </div>
+    </div>
+  </main>
+
+  <div id="app-footer"></div>
+</body>
+</html>

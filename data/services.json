@@ -1,0 +1,7 @@
+[
+  { "id": "SVC-001", "name": "Account Opening" },
+  { "id": "SVC-002", "name": "Loan Application" },
+  { "id": "SVC-003", "name": "Card Replacement" },
+  { "id": "SVC-004", "name": "Customer Support" },
+  { "id": "SVC-005", "name": "Business Banking" }
+]

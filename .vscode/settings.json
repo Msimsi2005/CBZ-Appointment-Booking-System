@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd \"c:\\\\Users\\\\msizi\\\\OneDrive\\\\Desktop\\\\ESCUELA\\\\FINAL ASSESMENT\\\\Web & mob\\\\website\" ; python test_api\\.py$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Appointment</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/app.js"></script>
+</head>
+<body data-page="book">
+  <div id="app-header"></div>
+
+  <main class="container">
+    <div class="card" style="max-width:760px;margin:0 auto;">
+      <h1 class="page-title">Book an Appointment</h1>
+
+      <form class="form" id="bookForm">
+        <div>
+          <div class="label">Full Name</div>
+          <input class="input" id="fullName" placeholder="Enter your full name" />
+        </div>
+
+        <div>
+          <div class="label">Email Address</div>
+          <input class="input" id="email" placeholder="your.email@example.com" />
+        </div>
+
+        <div>
+          <div class="label">ID/Passport Number</div>
+          <input class="input" id="idNumber" placeholder="Enter your ID or passport number" />
+        </div>
+
+        <div>
+          <div class="label">Phone Number</div>
+          <input class="input" id="phoneNumber" placeholder="+263771234567" />
+        </div>
+
+        <div>
+          <div class="label">Service Type</div>
+          <select id="serviceType"></select>
+        </div>
+
+        <div>
+          <div class="label">Date</div>
+          <input class="input" id="apptDate" type="date" />
+        </div>
+
+        <div>
+          <div class="label">Time (8:00 AM - 4:00 PM, 10-minute intervals)</div>
+          <select id="timeSlot"></select>
+        </div>
+
+        <button class="btn" type="submit">Book Appointment</button>
+      </form>
+
+      <div id="bookMsg"></div>
+    </div>
+  </main>
+
+  <div id="app-footer"></div>
+</body>
+</html>
